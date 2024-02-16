@@ -42,14 +42,6 @@ export default {
         {
           label: "Chinese",
           value: "cn"
-        },
-        {
-          label: "Deutsch",
-          value: "de"
-        },
-        {
-          label: "Portuguese",
-          value: "pt"
         }
       ]
     };
