@@ -1,0 +1,56 @@
+[
+    {
+		"id": "WireframeMEnuDots",
+		"type": "NavMenu",
+		"name": "Navigation Menu ",
+		"category": "WireFrame",
+		"subcategory": "XNavigation",
+		"_type": "Widget",
+		"_extends": "WireframeMenuDropDown",
+		"x": 0,
+		"y": 0,
+		"w": 40,
+		"h": 40,
+		"z": 0,
+		"props": {
+			"hidetext" : true,
+		    "icon" : "mdi mdi-dots-vertical",
+			"navigation": [
+				{
+					"id": 1,
+					"label": "Home",
+					"icon": "mdi mdi-home",
+					"to": "",
+					"selected": true
+				},
+				{
+					"id": 2,
+					"label": "Search",
+					"icon": "mdi mdi-magnify",
+					"to": ""
+				},
+				{
+					"id": 3,
+					"label": "Account",
+					"icon": "mdi mdi-account-outline",
+					"to": ""
+				}
+			]
+		},
+		"has": {
+			"onclick": true,
+			"border": false,
+			"backgroundColor": true,
+			"data": true,
+			"padding": true,
+			"label": true,
+			"icon": true
+		},
+		"style": {
+			"borderTopWidth" : 0,
+			"borderBottomWidth":0,
+			"borderRightWidth" : 0,
+			"borderLeftWidth" : 0		   
+		}
+	}
+]
